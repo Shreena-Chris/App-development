@@ -1,0 +1,31 @@
+.Ppage{
+    max-height: 550px;
+    overflow-y: auto; 
+  }
+.Privcontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .privapolicontainer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .privacpolicontainer h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .privacypolicycontainer p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+  }

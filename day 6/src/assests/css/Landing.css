@@ -1,0 +1,13 @@
+.background-container {
+    background-image: url('https://res.cloudinary.com/dkswc1cvm/image/upload/v1695561124/moneymoney_ip1lr4.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* You can add more background properties like background-color here */
+  }
+  
+
+.text{
+    font-size: 20px;
+    color: blue;
+}

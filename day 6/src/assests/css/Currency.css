@@ -1,0 +1,76 @@
+.Currency {
+    display: flex;
+    min-height: 100vh;
+  }
+  .CPage1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d2eca1e7; 
+  }
+  
+  
+  .Rupee {
+    font-size: 90px;
+    position: absolute;
+    top: 35%; /* Center vertically */
+    left: 30%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the icon precisely */
+  }
+  .RupeeWord{
+    font-size: 20px;
+    position: absolute;
+    top: 90%; /* Center vertically */
+    left: 55%; /* Center horizontally */
+    transform: translate(-50%, -50%); 
+  }
+  .Dollar {
+    font-size: 90px;
+    position: absolute;
+    top: 45%; /* Center vertically */
+    left: 399%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the icon precisely */
+  }
+  .DollarWord{
+    font-size: 20px;
+    position: absolute;
+    top: 100%; /* Center vertically */
+    left: 55%; /* Center horizontally */
+    transform: translate(-50%, -50%); 
+  }
+  .Euro{
+    font-size: 90px;
+    position: absolute;
+    top: 45%; /* Center vertically */
+    left: 799%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the icon precisely */
+  }
+  .EuroWord{
+    font-size: 20px;
+    position: absolute;
+    top: 100%; /* Center vertically */
+    left: 55%; /* Center horizontally */
+    transform: translate(-50%, -50%); 
+  }
+  .Cheader-text1 {
+    text-align: left;
+    font-size: 500px; 
+    position: fixed; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    opacity: 0; 
+  }
+  .welcome1 {
+    z-index: -1;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: #161515;
+  }
+  
