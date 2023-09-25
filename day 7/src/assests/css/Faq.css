@@ -1,0 +1,40 @@
+.faqpage{
+    max-height: 550px;
+    overflow-y: auto; 
+  }
+.faqcontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .faqhead{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .faqcontainer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .faqcontainer h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .faqcontainer p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .animation-containerfaq {
+    margin-top: 200px; /* Adjust the top margin to move it lower */
+    margin-left: 600px; /* Adjust the left margin to move it to the right */
+    width: 200px;
+}
