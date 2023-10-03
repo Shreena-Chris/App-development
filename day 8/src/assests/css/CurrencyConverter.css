@@ -1,0 +1,160 @@
+
+.CC1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #070707e7; 
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+  .kenburns-top {
+	-webkit-animation: kenburns-top 7s ease-out both;
+	        animation: kenburns-top 7s ease-out both;
+         
+}
+
+ @-webkit-keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(-15px);
+              transform: scale(1.25) translateY(-15px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  @keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(-15px);
+              transform: scale(1.25) translateY(-15px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  
+  
+  .app-title {
+    font-size: 24px;
+    color: rgb(240, 230, 230);
+    margin-top: 20px;
+  }
+ 
+  
+  .CCinputcontainer {
+    z-index: 99;
+    background-color: rgb(10, 10, 10);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 20px;
+    position: absolute; /* Position the container absolutely */
+    top: 50%; /* Center vertically */
+    left: 450px; /* Adjust the right distance as needed */
+    transform: translate(0%, -50%); /* Center vertically precisely */
+    overflow: hidden;
+  }
+  
+  
+  .amount-input {
+    width:91% ;
+    padding: 20px; /* Reduce padding to 10px */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .amount-input::placeholder{
+    font-size: large;
+  }
+  .from-currency-select,
+  .to-currency-select {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .to-label {
+    font-size: 18px;
+  }
+  
+  .convert-button {
+    background-color:rgba(30, 184, 89, 0.863);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .convert-button:hover {
+    background-color: #0bf746;
+  }
+  
+  .conversion-result {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    color:#f5f1f7;
+  }
+  
+  .confirmation-container {
+    margin-top: 20px;
+  }
+  
+  .confirmation-container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #124021;
+  }
+  
+  .confirmation-container button {
+    background-color: #1f8718;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .confirmation-container button:last-child {
+    background-color: #ea2e2e;
+    color: #fdf7f7;
+  }
+  @media (max-width: 500px) {
+    .amount-input,
+    .from-currency-select,
+    .to-currency-select {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+
+  
+ 
+ 
+  
+ 
+
+  
