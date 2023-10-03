@@ -1,0 +1,155 @@
+.headcon {
+    z-index: -1;
+    background-color: #090a09; /* Background color */
+    color: #d8f19c; /* Text color */
+    font-size: 24px; /* Font size */
+    height: 60px; /* Header height */
+    position: fixed; /* Fixed position at the top */
+    top: 0; /* Stick to the top */
+    left: 0; /* Stick to the left */
+    right: 0; /* Stick to the right */
+    padding: 10px 20px; /* Padding for content */
+    display: flex; /* Flex display for aligning content */
+    justify-content: space-between; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+  }
+  .iconu {
+    margin-right: 8px; /* Add space to the right of the icon */
+  }
+  .iconex {
+    margin-right: 8px; /* Add space to the right of the icon */
+  }
+  .icont{
+    margin-right: 8px; /* Add space to the right of the icon */
+  }
+  .iconer{
+    margin-right: 8px; /* Add space to the right of the icon */
+  }
+  
+  .iconheart{
+    margin-right: 8px; /* Add space to the right of the icon */
+  }
+  
+  .iconfp{
+    margin-right: 8px; /* Add space to the right of the icon */
+  }
+  
+
+  
+  /* Sidebar Container */
+  .sidebar{
+    width: 250px; /* Sidebar width */
+    height: 100%; /* Full height */
+    position: fixed; /* Fixed position */
+    top: 10%; /* Stick to the top */
+    left: 0; /* Stick to the left */
+    background-color: #090a09; /* Sidebar background color */
+    color: #fff; /* Text color */
+    padding-top: 50px; /* Top padding */
+  }
+  
+  /* Sidebar Navigation List */
+  .sidebar ul {
+    list-style-type: none; /* Remove list bullets */
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  /* Sidebar Navigation Buttons */
+  .sidebar ul button {
+    display: block; /* Make buttons block-level elements */
+    width: 90%; /* Full width buttons */
+    text-align: left; /* Left-align text within buttons */
+    padding: 20px 10px; /* Adjust left padding to move buttons more to the left */
+    margin-left: 10px; /* Add negative margin to shift buttons to the left */
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove button borders */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    color: inherit; /* Inherit text color */
+    font-size: inherit; /* Inherit font size */
+    text-decoration: none; /* Remove default button underline */
+    outline: none; /* Remove outline on button focus */
+  }
+  
+  
+  /* Sidebar Navigation Buttons on Hover */
+  .sidebar ul button:hover {
+    background-color: rgba(23, 243, 107, 0.863); /* Background color on hover */
+  }
+
+  .footer {
+    background-color: #090a09; /* Background color */
+    height: 50px; /* Footer height */
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0; /* Stick to the bottom */
+    left: 0; /* Stick to the left */
+    right: 0; /* Stick to the right */
+    align-items: center; 
+    display: flex; /* Flex display for aligning content */
+   
+  }
+  
+  .priv {
+    color:white;
+    font-size: 15px;
+    padding-left: 500px;
+    left: 35;
+    right: 40;
+    z-index: 99;
+  }
+  
+.priv:hover {
+       
+      color: rgb(45, 218, 23); /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  .Terms{
+    color:white;
+    font-size: 15px;
+    padding-left: 60px;
+    left: 35;
+    right: 40;
+    z-index: 99;
+  }
+  .Terms:hover {
+    color: rgb(45, 218, 23); /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  .Faq{
+    color:white;
+    font-size: 15px;
+    padding-left: 50px;
+    left: 35;
+    right: 40;
+    z-index: 99;
+  }
+  .Faq:hover {
+    color: rgb(45, 218, 23); /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .contact{
+    color:white;
+    font-size: 15px;
+    padding-left: 60px;
+    left: 35;
+    right: 40;
+    z-index: 99;
+  }
+  .contact:hover {
+    color: rgb(45, 218, 23); /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .copyright{
+    color:grey;
+    font-size: 15px;
+    padding-left: 40px;
+    left: 35;
+    right: 40;
+    z-index: 99;
+  }
+  
+  
+  
+  

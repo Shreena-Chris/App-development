@@ -1,0 +1,41 @@
+
+.Mpage{
+    max-height: 550px;
+    overflow-y: auto; 
+  }
+
+.market-insights {
+    margin: 0 auto; /* Center the table horizontally */
+    text-align: center; /* Center the text within the table */
+  }
+  
+  .markettablename {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: serif;
+  }
+  
+  table {
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 100px auto; /* Center the table horizontally and add some margin at the top */
+    text-align: left; /* Reset text alignment to left */
+  }
+  
+  
+  table th {
+    background-color: #020202;
+  }
+  
+  /* Hide table by default */
+  .market-insights.hidden {
+    display: none;
+  }
+  
+  /* Show table when isVisible is true */
+  .market-insights.visible {
+    display: block;
+  }
+  
