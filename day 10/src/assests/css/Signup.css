@@ -1,0 +1,122 @@
+.App1 {
+  text-align: center;
+}
+body{
+  overflow: hidden;
+}
+
+.loginPage1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0d0e0de7; 
+  
+}
+a{
+  text-decoration: none;
+    }
+
+
+/* .animationc
+{
+  width: 40rem;
+  height: 30px;
+  display: flex;
+  margin-right: 100px;
+} */
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.loginContainer1 {
+  width: 450px; 
+  height:420px;
+  padding: 20px;
+  left:450px;
+  top:145px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; 
+  box-shadow: 0 2px 5px rgba(91, 223, 15, 0.1);
+  text-align: center;
+  position: fixed;
+}
+
+
+.input-field1 {
+  width: 95%;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.submit-button {
+  width: 90%;
+  padding: 10px;
+  background-color: #08df13; 
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.color-change1-2x {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+}
+
+ @-webkit-keyframes color-change-2x {
+  0% {
+    background: #41d613;
+  }
+  100% {
+    background: #2cff4f9d;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #41d613;
+  }
+  100% {
+    background: #2cff4f9d;
+  }
+}
+
+/* .header-text2
+{
+  margin-top: 100px; 
+  position: fixed;
+  left: 0; 
+  background-color: #2dcc35;  
+  color: #d8f19c; 
+  font-size: 50px;
+} */
+
+
+

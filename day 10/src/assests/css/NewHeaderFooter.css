@@ -1,0 +1,149 @@
+.Landhead {
+    z-index: -1;
+    background-color: #090a09; /* Background color */
+    color: #d8f19c; /* Text color */
+    font-size: 40px; /* Font size */
+    height: 80px; /* Header height */
+    position: fixed; /* Fixed position at the top */
+    top: 0; /* Stick to the top */
+    left: 0; /* Stick to the left */
+    right: 0; /* Stick to the right */
+    padding: 10px 20px; /* Padding for content */
+    display: flex; /* Flex display for aligning content */
+    justify-content: space-between; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+  }
+  .Landfooter {
+    background-color: #090a09; /* Background color */
+    height: 50px; /* Footer height */
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0; /* Stick to the bottom */
+    left: 0; /* Stick to the left */
+    right: 0; /* Stick to the right */
+    align-items: center; 
+    display: flex; /* Flex display for aligning content */
+   
+  }
+  
+  .priv {
+    color:white;
+    font-size: 15px;
+    padding-left: 500px;
+    left: 35;
+    right: 40;
+    z-index: 99;
+  }
+  
+.priv:hover {
+       
+      color: rgb(45, 218, 23); /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  .Terms{
+    color:white;
+    font-size: 15px;
+    padding-left: 60px;
+    left: 35;
+    right: 40;
+    z-index: 99;
+  }
+  .Terms:hover {
+    color: rgb(45, 218, 23); /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  .Faq{
+    color:white;
+    font-size: 15px;
+    padding-left: 50px;
+    left: 35;
+    right: 40;
+    z-index: 99;
+  }
+  .Faq:hover {
+    color: rgb(45, 218, 23); /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .contact{
+    color:white;
+    font-size: 15px;
+    padding-left: 60px;
+    left: 35;
+    right: 40;
+    z-index: 99;
+  }
+  .contact:hover {
+    color: rgb(45, 218, 23); /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .copyright{
+    color:grey;
+    font-size: 15px;
+    padding-left: 40px;
+    left: 35;
+    right: 40;
+    z-index: 99;
+  }
+  .Curcal {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    /* Adjust the positioning as needed */
+    top: 40px; /* Adjust the distance from the top */
+    left: 400px; /* Adjust the distance from the left */
+    /* right: 40px; (You can optionally use this or left, but not both) */
+    z-index: 99;
+  }
+  .Curcal:hover {
+       
+    color: rgb(45, 218, 23); /* Change text color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+  
+  .Insights {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    /* Adjust the positioning as needed */
+    top: 40px; /* Adjust the distance from the top */
+    left: 650px; /* Adjust the distance from the left */
+    /* right: 40px; (You can optionally use this or left, but not both) */
+    z-index: 99;
+  }
+  .Insights:hover {
+       
+    color: rgb(45, 218, 23); /* Change text color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+  
+  .Wallet {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    /* Adjust the positioning as needed */
+    top: 40px; /* Adjust the distance from the top */
+    left: 880px; /* Adjust the distance from the left */
+    /* right: 40px; (You can optionally use this or left, but not both) */
+    z-index: 99;
+  }
+  .Wallet:hover {
+       
+    color: rgb(45, 218, 23); /* Change text color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+  .Logog {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    /* Adjust the positioning as needed */
+    top: 25px; /* Adjust the distance from the top */
+    left: 1190px; /* Adjust the distance from the left */
+    /* right: 40px; (You can optionally use this or left, but not both) */
+    z-index: 99;
+  }
+  .Logog:hover {
+       
+    color: rgb(45, 218, 23); /* Change text color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
